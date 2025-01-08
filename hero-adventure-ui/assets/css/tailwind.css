@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+}
+
+/* Custom styles */
+@layer components {
+  .btn {
+    @apply bg-nuclear-cherenkov text-black px-4 py-2 rounded-lg shadow-cherenkov hover:bg-nuclear-navy;
+  }
+
+  .card {
+    @apply bg-heroic-raisin p-6 rounded-lg shadow-md text-nuclear-lightgray;
+  }
+}
+
+h1 {
+  @apply text-3xl mt-2 mb-6 font-bold text-nuclear-blue-600;
+}
+h2 {
+  @apply text-2xl my-4 font-bold;
+}
+h3 {
+  @apply text-xl my-4 text-nuclear-blue-800;
+}
+
+a {
+  @apply underline text-nuclear-blue-800 hover:text-nuclear-blue-500 visited:text-nuclear-blue-800;
+}
