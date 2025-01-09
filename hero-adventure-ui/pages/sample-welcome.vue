@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <NuxtWelcome />
+    <CopyWelcome />
   </div>
 </template>

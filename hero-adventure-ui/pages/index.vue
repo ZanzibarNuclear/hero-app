@@ -1,4 +1,5 @@
-<script setup lang="ts">
+<script setup>
+import { definePageMeta } from '#imports'
 definePageMeta({
   layout: 'entrance'
 })

@@ -1,11 +1,19 @@
 import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   darkMode: 'class', // Enable dark mode using the 'dark' class
-  content: ['./index.html', './src/**/*.{vue,js,ts}'],
+  content: [
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.{vue,js,ts}',
+    './pages/**/*.{vue,js,ts}',
+  ],
   theme: {
     extend: {
+      aspectRatio: {
+        auto: 'auto',
+        square: '1 / 1',
+        video: '16 / 9'
+      },
       colors: {
         nuclear: {
           50: '#f0f9ff',
@@ -43,5 +51,4 @@ export default <Partial<Config>>{
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
 }
