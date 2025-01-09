@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink to="test-pattern">
+    <NuxtLink to="nu-art">
       <UCard :ui="cardStyle">
         <h1 class="dark:text-white font-semibold sm:text-5xl text-4xl text-heroic-cherenkov text-center">Blue is the
           new green.</h1>
