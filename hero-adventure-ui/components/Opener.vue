@@ -1,14 +1,19 @@
 <template>
-  <div class="m-32">
-    <h1>Blue is the new green.</h1>
-    <UCard class="m-auto">
-      <h1 class="text-center">Blue is the new green.</h1>
-    </UCard>
+  <div>
+    <NuxtLink to="test-pattern">
+      <UCard :ui="cardStyle">
+        <h1 class="dark:text-white font-semibold sm:text-5xl text-4xl text-heroic-cherenkov text-center">Blue is the
+          new green.</h1>
+      </UCard>
+    </NuxtLink>
+
   </div>
 </template>
 
 <script setup lang="ts">
-
+const cardStyle = {
+  background: 'bg-heroic-raisin'
+}
 </script>
 
 <style scoped></style>
