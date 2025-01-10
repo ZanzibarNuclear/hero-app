@@ -4,11 +4,7 @@
     <main class="flex-grow flex items-center justify-center">
       <slot />
     </main>
-    <footer class="my-4">
-      <div class="text-right text-gray-700">
-        <NuxtLink external to="https://nuclearambitions.com">&copy; 2025 Nuclear Ambitions LLC</NuxtLink>
-      </div>
-    </footer>
+    <CommonSimpleFooter />
   </div>
 </template>
 

@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const defaultTheme = import('tailwindcss/defaultTheme')
 
 export default <Partial<Config>>{
   darkMode: 'class', // Enable dark mode using the 'dark' class
@@ -44,6 +45,17 @@ export default <Partial<Config>>{
         // Add futuristic fonts for headings and body text
         heading: ['Orbitron', 'sans-serif'],
         body: ['Roboto', 'sans-serif'],
+        'body-serif': ['RobotoSerif', 'serif'],
+        'heading-serif': ['Chonburi', 'serif'],
+        'heading-slab': ['RobotoSlab', 'sans-serif'],
+        cursive: ['Playwrite'],
+      },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
       },
       boxShadow: {
         // Add glowing effects for hover states
