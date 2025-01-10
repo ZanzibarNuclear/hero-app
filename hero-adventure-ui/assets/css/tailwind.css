@@ -43,5 +43,5 @@ ol {
   @apply my-6 list-decimal list-inside pl-2;
 }
 li {
-  @apply my-2 text-sm;
+  @apply my-2;
 }
