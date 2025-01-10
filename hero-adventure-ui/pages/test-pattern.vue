@@ -1,5 +1,5 @@
 <template>
-  <div class="w-5/6 min-w-96">
+  <div class="w-5/6 min-w-80">
     <h1>Test Pattern - <em>H1 Orbitron</em></h1>
     <h1 class="font-heading-serif">How About <em>Chonburi?</em></h1>
     <h1 class="font-heading-slab">Or What About <em>Roboto Slab?</em></h1>
