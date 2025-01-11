@@ -1,5 +1,6 @@
 <template>
   <div class="grid grid-cols-1 w-full">
+    <DarkToggle />
 
     <UDivider class="my-8" label="Nuxt UI elements" />
     <ExampleForm />

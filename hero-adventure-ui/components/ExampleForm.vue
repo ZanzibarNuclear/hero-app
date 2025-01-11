@@ -15,11 +15,12 @@
         <UCheckbox v-model="state.agreeToTerms" name="notifications" label="I agree to the terms of use" />
         <div class="flex justify-between h-12">
           <UButton label="Change it" :ui="buttonStyle" icon="i-heroicons-pencil-square"
-            class="bg-nuclear-700 text-white hover:bg-nuclear-500" />
+            class="bg-nuclear-700 dark:bg-nuclear-400 text-white hover:bg-nuclear-500 dark:hover:bg-nuclear-300" />
           <UButton label="Watch it" :ui="buttonStyle" icon="i-heroicons-eye"
-            class="bg-green-700 text-white hover:bg-green-500" :loading="isLoading" @click="toggleLoading" />
+            class="bg-green-700 dark:bg-green-400 text-white hover:bg-green-500 dark:hover:bg-green-300"
+            :loading="isLoading" @click="toggleLoading" />
           <UButton label="Remove it" :ui="buttonStyle" icon="i-heroicons-trash"
-            class="bg-orange-700 text-white hover:bg-orange-500" />
+            class="bg-orange-700 dark:bg-orange-400 text-white hover:bg-orange-500 dark:hover:bg-orange-300" />
         </div>
       </div>
     </UForm>
