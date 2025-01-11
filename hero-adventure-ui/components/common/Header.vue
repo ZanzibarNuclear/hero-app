@@ -1,7 +1,7 @@
 <template>
-  <header>
-    <NuxtRouteAnnouncer />
-    <h1>Zanzibar's World of Nuclear Energy</h1>
+  <header class="">
+    <h1>World of Nuclear</h1>
+    <DarkToggle />
   </header>
 </template>
 

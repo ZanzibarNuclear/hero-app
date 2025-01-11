@@ -1,12 +1,10 @@
 <template>
   <div class="grid grid-cols-1 w-full">
-    <DarkToggle />
-
     <UDivider class="my-8" label="Nuxt UI elements" />
     <ExampleForm />
 
     <UDivider class="my-8 font-body-serif" label="Plain form elements" />
-    <form class="w-full bg-nuclear-100 p-6 rounded-lg shadow-md font-body-serif">
+    <form class="w-full bg-nuclear-100 dark:bg-heroic-raisin p-6 rounded-lg shadow-md font-body-serif">
       <!-- Form Container -->
 
       <!-- Input Field -->
@@ -48,9 +46,9 @@
 </template>
 
 <script setup>
-definePageMeta({
-  layout: 'default'
-})
+// definePageMeta({
+//   layout: 'default'
+// })
 
 const handleWanted = ref('Blargypants')
 const isTaken = computed(() => {
