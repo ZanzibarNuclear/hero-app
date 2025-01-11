@@ -1,5 +1,6 @@
 <template>
   <div class="w-5/6 min-w-80">
+    <UDivider label="Header Style / Fonts" />
     <h1>Test Pattern - <em>H1 Orbitron</em></h1>
     <h1 class="font-heading-serif">How About <em>Chonburi?</em></h1>
     <h1 class="font-heading-slab">Or What About <em>Roboto Slab?</em></h1>
@@ -19,21 +20,6 @@
     <h2>Test Pattern - H2</h2>
     <h3>Test Pattern - H3</h3>
     <h4>Test Pattern - H4</h4>
-    <ul>
-      <li>First of all...</li>
-      <li>Second, you must...</li>
-      <li>Finally, why not...</li>
-    </ul>
-    <ol class="font-body-serif">
-      <li>First of all...</li>
-      <li>Second, you must...</li>
-      <li>Finally, why not...</li>
-    </ol>
-    <ol class="font-cursive text-sm">
-      <li>These are days of power.</li>
-      <li>These are days of intrigue.</li>
-      <li>This is the golden age.</li>
-    </ol>
     <p class="my-4">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue ac
       sem quis aliquam. Nulla tempus
@@ -61,7 +47,24 @@
       Donec rutrum ac lacus varius laoreet. Nulla sed iaculis mauris, vitae
       mollis purus.
     </p>
+    <UDivider label="Lists" />
+    <ul>
+      <li>First of all...</li>
+      <li>Second, you must...</li>
+      <li>Finally, why not...</li>
+    </ul>
+    <ol class="font-body-serif">
+      <li>First of all...</li>
+      <li>Second, you must...</li>
+      <li>Finally, why not...</li>
+    </ol>
+    <ol class="font-cursive text-sm">
+      <li>These are days of power.</li>
+      <li>These are days of intrigue.</li>
+      <li>This is the golden age.</li>
+    </ol>
   </div>
+
 </template>
 
 <script setup></script>
