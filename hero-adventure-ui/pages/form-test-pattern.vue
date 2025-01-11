@@ -1,5 +1,9 @@
 <template>
   <div class="grid grid-cols-1 w-full">
+
+    <UDivider class="my-8" label="Nuxt UI elements" />
+    <ExampleForm />
+
     <UDivider class="my-8 font-body-serif" label="Plain form elements" />
     <form class="w-full bg-nuclear-100 p-6 rounded-lg shadow-md font-body-serif">
       <!-- Form Container -->
@@ -39,10 +43,6 @@
         </button>
       </div>
     </form>
-
-    <UDivider class="my-8" label="Nuxt UI elements" />
-
-    <ExampleForm />
   </div>
 </template>
 
