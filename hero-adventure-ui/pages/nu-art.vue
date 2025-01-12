@@ -12,6 +12,7 @@ const artwork = [
   'flux-blossom.webp',
   'flux-hex-sphere.webp',
   'flux-radar.webp',
+  'blue-reactor.jpg'
 ]
 const showing = ref(0)
 const onDisplay = computed(() => {

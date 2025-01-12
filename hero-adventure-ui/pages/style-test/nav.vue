@@ -1,11 +1,13 @@
 <template>
   <div>
-    This is for comparing navigation menus.
+    <NavMenu class="mx-auto" />
   </div>
 </template>
 
 <script setup lang="ts">
-
+definePageMeta({
+  layout: 'plain'
+})
 </script>
 
 <style scoped></style>
