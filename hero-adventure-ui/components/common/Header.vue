@@ -8,7 +8,7 @@
       Nuclear</h1>
     <div class="flex space-x-4">
       <DarkToggle />
-      <AccountMenuItem />
+      <AccountMenuWidget />
     </div>
   </header>
 </template>

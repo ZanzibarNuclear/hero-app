@@ -1,5 +1,5 @@
 <template>
-  <div class="w-5/6 min-w-80">
+  <div class="w-5/6 min-w-80 py-8">
     <UDivider label="Header Style / Fonts" />
     <h1>Test Pattern - <em>H1 Orbitron</em></h1>
     <h1 class="font-heading-serif">How About <em>Chonburi?</em></h1>
@@ -63,8 +63,16 @@
       <li>These are days of intrigue.</li>
       <li>This is the golden age.</li>
     </ol>
-  </div>
 
+    <UDivider label="And more..." />
+
+    <div class="text-center mt-8">
+      <NuxtLink :to="{ name: 'style-test-forms' }">Form styles</NuxtLink>
+    </div>
+    <div class="text-center mt-4">
+      <NuxtLink :to="{ name: 'style-test-nav' }">Nav styles</NuxtLink>
+    </div>
+  </div>
 </template>
 
 <script setup></script>
