@@ -25,9 +25,10 @@ useSeoMeta({
 })
 const artwork = [
   'flux-hex-sphere.webp',
-  'flux-ocean.webp',
   'flux-radar.webp',
   'flux-blossom.webp',
+  'flux-ocean.webp',
+  'flux-under-water.webp',
   'flux-galaxy.webp',
 ]
 const showing = ref(0)

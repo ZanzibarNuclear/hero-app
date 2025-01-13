@@ -1,15 +1,10 @@
 <template>
-  <header class="flex items-center justify-between bg-heroic-lightgray dark:bg-heroic-raisin shadow w-full">
+  <header
+    class="flex items-center justify-between bg-heroic-uranium dark:bg-heroic-raisin shadow-lg dark:shadow-cherenkov w-full mt-4">
     <div class="flex-shrink-0">
-      <div class="flex">
-        <NuxtImg src="/images/logo/pirate-sq.jpg" alt="World of Nuclear logo" width="50" height="50" />
-        <h1
-          class="text-3xl px-4 font-bold font-heading text-center flex-grow text-heroic-navy dark:text-heroic-cherenkov">
-          World of
-          Nuclear</h1>
-      </div>
+      <NuxtImg src="/images/logo/logo-cherenkov-clear-bg.png" alt="World of Nuclear logo" />
     </div>
-    <div class="flex space-x-4">
+    <div class="flex space-x-4 mr-2">
       <DarkToggle />
       <AccountMenuWidget />
     </div>

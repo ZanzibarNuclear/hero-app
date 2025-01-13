@@ -8,7 +8,7 @@
         <div>
           <UButton to="/guide" icon="i-heroicons-map" label="Guide" variant="ghost" />
         </div>
-        <UButton to="/" icon="i-heroicons-trophy" label="Credits" variant="ghost" />
+        <UButton to="/credits" icon="i-heroicons-trophy" label="Credits" variant="ghost" />
       </div>
     </div>
     <div class="text-center text-gray-700">
