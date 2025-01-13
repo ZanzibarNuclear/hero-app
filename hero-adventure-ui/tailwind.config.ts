@@ -30,7 +30,8 @@ export default <Partial<Config>>{
           950: '#072f4a',
         },
         heroic: {
-          black: '#000000', // Background color
+          black: '#000000', // Dark background color
+          uranium: '#fefadc', // Thematic background color
           cherenkov: '#20C8FB', // Primary highlight color
           navy: '#1A74E2', // Secondary accent color
           raisin: '#1F2123', // Subtle section backgrounds

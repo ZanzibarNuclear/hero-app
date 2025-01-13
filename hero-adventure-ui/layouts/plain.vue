@@ -1,5 +1,5 @@
 <template>
-  <main class="w-5/6 mx-auto my-10 min-w-80">
+  <main class="w-5/6 min-w-80 mx-auto">
     <slot />
   </main>
 </template>
