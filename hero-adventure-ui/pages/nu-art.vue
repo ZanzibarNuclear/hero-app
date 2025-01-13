@@ -4,7 +4,7 @@
       <NuxtPicture @click="advanceSlide()" :src="onDisplay" placeholder="/images/blue-reactor.jpg" />
     </div>
     <div class="text-right mt-2">
-      <UButton variant="ghost" alt="Go to next" :to="{ name: 'style-test-fonts' }">
+      <UButton variant="ghost" alt="Go to next" :to="{ name: 'lobby' }">
         <UIcon name="i-ph-door-duotone" />
         <UIcon name="i-ph-arrow-right" />
       </UButton>
