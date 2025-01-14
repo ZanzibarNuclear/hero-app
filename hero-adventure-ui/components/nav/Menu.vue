@@ -13,22 +13,22 @@
 const menuItems = [
   {
     label: 'Lobby',
-    icon: 'i-ph-building-office',
+    icon: 'i-ph-building-office-duotone',
     route: '/lobby',
   },
   {
     label: 'Flux',
-    icon: 'i-ph-lightning',
+    icon: 'i-ph-lightning-duotone',
     route: 'https://flux.worldofnuclear.com',
   },
   {
     label: 'Essays',
-    icon: 'i-ph-student',
+    icon: 'i-ph-student-duotone',
     route: 'https://blog.worldofnuclear.com',
   },
   {
     label: 'Adventure',
-    icon: 'i-ph-hiking',
+    icon: 'i-ph-person-simple-hike-duotone',
     route: '/guide',
   },
 ]

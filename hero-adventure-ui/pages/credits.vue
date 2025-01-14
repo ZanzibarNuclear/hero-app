@@ -3,6 +3,7 @@
     <h2>Credits</h2>
     <div>We hope you are enjoying the World of Nuclear. These are the people and technologies that make this possible.
       Apologies to those we have neglected to mention.</div>
+    <div></div>
     <ul>
       <li>The Nuxt team</li>
       <li>The Nuxt UI team</li>
