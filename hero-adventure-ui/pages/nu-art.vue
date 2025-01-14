@@ -1,11 +1,7 @@
 <template>
   <div class="">
     <div>
-      <NuxtPicture
-        @click="advanceSlide()"
-        :src="onDisplay"
-        placeholder="/images/blue-reactor.jpg"
-      />
+      <NuxtPicture @click="advanceSlide()" :src="onDisplay" placeholder="/images/blue-reactor.jpg" />
     </div>
     <div class="text-right mt-2">
       <UButton variant="ghost" alt="Go to next" :to="{ name: 'lobby' }">
@@ -34,6 +30,7 @@ const artwork = [
   'flux-ocean.webp',
   'flux-under-water.webp',
   'flux-galaxy.webp',
+  'flux-spiral.webp',
 ]
 const showing = ref(0)
 const onDisplay = computed(() => {

@@ -39,7 +39,7 @@ export default <Partial<Config>>{
         },
         uranium: {
           'ore-bright': '#ffff7e',
-          'ore-darker': '#ffcd14',
+          'ore-darker': '#ffca11',
           orange: '#e08400',
           'glow-bright': '#2cfa1f',
           'glow-dark': '#167b10',
