@@ -9,17 +9,23 @@
           encouragement. Welcome.
         </div>
         <div>
-          <UIcon name="i-ph-star-duotone" class="mr-2" /> The main event at World of Nuclear is our
+          <UIcon name="i-ph-star-duotone" class="star" /> The main
+          event at World of Nuclear is
+          our
           adventure game where you get to run a nuclear power plant. [Step in], and lose yourself
           while you uncover lost secrets. Advance by learning.
         </div>
         <div>
-          <UIcon name="i-ph-star-duotone" class="mr-2" /> Try Flux, our area for social interaction.
+          <UIcon name="i-ph-star-duotone" class="text-uranium-orange dark:text-uranium-ore-bright" /> Try Flux, our area
+          for social
+          interaction.
           Post your thoughts, whether they are deep and well formed or just off the top of your
           head. Have fun reacting to others. See if you can get a chain reaction going.
         </div>
         <div>
-          <UIcon name="i-ph-star-duotone" class="mr-2" /> If you just came here to learn, check out
+          <UIcon name="i-ph-star-duotone" class="text-uranium-glow-dark dark:text-uranium-glow-bright" /> If you just
+          came here to learn, check
+          out
           the micro lessons. Each lesson explains a single concept and is short enough to get
           through in about 10 minutes. Gain credit with each lesson you complete, and unlock more
           advanced material.
@@ -47,4 +53,8 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+.star {
+  @apply mr-2 text-uranium-ore-darker dark:text-uranium-ore-bright;
+}
+</style>
