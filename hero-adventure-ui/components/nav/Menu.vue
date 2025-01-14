@@ -28,7 +28,7 @@ const menuItems = [
   },
   {
     label: 'Adventure',
-    icon: 'i-ph-student',
+    icon: 'i-ph-hiking',
     route: '/guide',
   },
 ]
