@@ -1,7 +1,11 @@
 <template>
   <div class="">
     <div>
-      <NuxtPicture @click="advanceSlide()" :src="onDisplay" placeholder="/images/blue-reactor.jpg" />
+      <NuxtPicture
+        @click="advanceSlide()"
+        :src="onDisplay"
+        placeholder="/images/blue-reactor.jpg"
+      />
     </div>
     <div class="text-right mt-2">
       <UButton variant="ghost" alt="Go to next" :to="{ name: 'lobby' }">
@@ -14,14 +18,14 @@
 
 <script lang="ts" setup>
 definePageMeta({
-  layout: 'entrance'
+  layout: 'entrance',
 })
 useSeoMeta({
   title: 'Flux Gallery - World of Nuclear',
   ogTitle: 'Flux Gallery - World of Nuclear',
   description: 'Imagine the beauty of nuclear flux powering the universe',
   ogDescription: 'Imagine the beauty of nuclear flux powering the universe',
-  ogImage: 'https://worldofnuclear/images/blue-reactor.jpg'
+  ogImage: 'https://worldofnuclear/images/blue-reactor.jpg',
 })
 const artwork = [
   'flux-hex-sphere.webp',
@@ -39,7 +43,6 @@ const onDisplay = computed(() => {
 const advanceSlide = () => {
   showing.value = (showing.value + 1) % artwork.length
 }
-
 </script>
 
 <style></style>

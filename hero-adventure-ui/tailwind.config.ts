@@ -13,7 +13,7 @@ export default <Partial<Config>>{
       aspectRatio: {
         auto: 'auto',
         square: '1 / 1',
-        video: '16 / 9'
+        video: '16 / 9',
       },
       colors: {
         nuclear: {
@@ -40,10 +40,10 @@ export default <Partial<Config>>{
         uranium: {
           'ore-bright': '#ffff7e',
           'ore-darker': '#ffcd14',
-          'orange': "#e08400",
+          orange: '#e08400',
           'glow-bright': '#2cfa1f',
           'glow-dark': '#167b10',
-        }
+        },
       },
       // backgroundImage: {
       //   'hero-pattern': "url('/images/bg/mt-diablo-1920x455.jpg')",

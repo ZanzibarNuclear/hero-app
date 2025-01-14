@@ -7,9 +7,9 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       stylistic: {
-        semi: false
+        semi: false,
       },
-    }
+    },
   },
   vite: {
     define: {
@@ -18,13 +18,13 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         sass: {
-          api: 'modern'
+          api: 'modern',
         },
         scss: {
-          api: 'modern'
-        }
-      }
-    }
+          api: 'modern',
+        },
+      },
+    },
   },
   tailwindcss: {
     exposeConfig: true,

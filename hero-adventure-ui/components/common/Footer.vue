@@ -12,13 +12,13 @@
       </div>
     </div>
     <div class="text-center text-gray-700">
-      <NuxtLink external to="https://nuclearambitions.com">&copy; 2025 Nuclear Ambitions LLC</NuxtLink>
+      <NuxtLink external to="https://nuclearambitions.com"
+        >&copy; 2025 Nuclear Ambitions LLC</NuxtLink
+      >
     </div>
   </footer>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

@@ -1,8 +1,13 @@
 <template>
   <div class="relative">
     <!-- Main Menu Item -->
-    <UButton :to="route" :label="label" :icon="icon" variant="outline"
-      class="flex items-center space-x-2 hover:bg-gray-700 px-4 py-2 rounded-lg">
+    <UButton
+      :to="route"
+      :label="label"
+      :icon="icon"
+      variant="outline"
+      class="flex items-center space-x-2 hover:bg-gray-700 px-4 py-2 rounded-lg"
+    >
     </UButton>
   </div>
 </template>
