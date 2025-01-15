@@ -1,7 +1,5 @@
 <template>
-  <main class="w-5/6 min-w-80 mx-auto">
-    <slot />
-  </main>
+  <h2>Member Profile</h2>
 </template>
 
 <script setup></script>

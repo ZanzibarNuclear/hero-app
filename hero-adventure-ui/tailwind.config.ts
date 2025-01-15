@@ -13,7 +13,7 @@ export default <Partial<Config>>{
       aspectRatio: {
         auto: 'auto',
         square: '1 / 1',
-        video: '16 / 9'
+        video: '16 / 9',
       },
       colors: {
         nuclear: {
@@ -30,11 +30,19 @@ export default <Partial<Config>>{
           950: '#072f4a',
         },
         heroic: {
-          black: '#000000', // Background color
+          black: '#000000', // Dark background color
+          uranium: '#fefadc', // Thematic background color
           cherenkov: '#20C8FB', // Primary highlight color
           navy: '#1A74E2', // Secondary accent color
           raisin: '#1F2123', // Subtle section backgrounds
           lightgray: '#D3D3D3', // Text color for readability
+        },
+        uranium: {
+          'ore-bright': '#ffff7e',
+          'ore-darker': '#ffca11',
+          orange: '#e08400',
+          'glow-bright': '#2cfa1f',
+          'glow-dark': '#167b10',
         },
       },
       // backgroundImage: {

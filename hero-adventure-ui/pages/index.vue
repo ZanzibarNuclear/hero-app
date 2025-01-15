@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-  layout: 'entrance'
+  layout: 'entrance',
 })
 </script>
 
