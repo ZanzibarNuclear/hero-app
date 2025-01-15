@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink to="nu-art">
+    <NuxtLink to="art">
       <UCard :ui="cardStyle" class="shadow-cherenkov">
         <h1
           class="dark:text-heroic-cherenkov font-semibold sm:text-5xl text-4xl text-heroic-cherenkov text-center"
