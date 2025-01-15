@@ -12,6 +12,7 @@
     "lint:fix": "eslint --fix . && prettier --write ."
   },
   "dependencies": {
+    "@iconify-json/ph": "^1.2.2",
     "@nuxt/image": "^1.9.0",
     "@nuxt/ui": "^2.20.0",
     "nuxt": "^3.15.1",
