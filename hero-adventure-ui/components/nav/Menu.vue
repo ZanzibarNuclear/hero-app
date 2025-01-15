@@ -1,7 +1,7 @@
 <template>
   <!-- Horizontal Navbar -->
   <nav
-    class="flex justify-between items-center px-6 py-3 bg-heroic-uranium dark:bg-heroic-raisin text-heroic-lightgray"
+    class="flex justify-between items-center px-6 py-3 bg-heroic-uranium dark:bg-heroic-graphite text-heroic-lightgray"
   >
     <div class="flex space-x-6">
       <NavMenuItem

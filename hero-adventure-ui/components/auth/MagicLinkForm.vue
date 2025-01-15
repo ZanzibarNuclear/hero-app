@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-nuclear-50 dark:bg-heroic-raisin dark:text-heroic-lightgray rounded-lg">
+  <div class="bg-nuclear-50 dark:bg-heroic-graphite dark:text-heroic-lightgray rounded-lg">
     <UForm :state="state" :schema="schema" @submit="onSubmit">
       <div class="space-y-6">
         <UFormGroup

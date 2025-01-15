@@ -34,7 +34,7 @@ export default <Partial<Config>>{
           uranium: '#fefadc', // Thematic background color
           cherenkov: '#20C8FB', // Primary highlight color
           navy: '#1A74E2', // Secondary accent color
-          raisin: '#1F2123', // Subtle section backgrounds
+          graphite: '#454749', // Subtle section backgrounds
           lightgray: '#D3D3D3', // Text color for readability
         },
         uranium: {

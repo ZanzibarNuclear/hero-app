@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 const cardStyle = {
-  background: 'bg-heroic-raisin',
+  background: 'bg-heroic-graphite',
 }
 </script>
 

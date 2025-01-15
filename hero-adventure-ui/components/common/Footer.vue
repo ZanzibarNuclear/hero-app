@@ -11,7 +11,7 @@
         <UButton to="/credits" icon="i-heroicons-trophy" label="Credits" variant="ghost" />
       </div>
     </div>
-    <div class="text-center text-gray-700">
+    <div class="text-center">
       <NuxtLink external to="https://nuclearambitions.com"
         >&copy; 2025 Nuclear Ambitions LLC</NuxtLink
       >

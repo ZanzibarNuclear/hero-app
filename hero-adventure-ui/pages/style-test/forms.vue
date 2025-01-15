@@ -2,66 +2,6 @@
   <div class="grid grid-cols-1 w-full">
     <UDivider class="my-8" label="Nuxt UI elements" />
     <ExampleForm />
-
-    <UDivider class="my-8 font-body-serif" label="Plain form elements" />
-    <form
-      class="w-full bg-nuclear-100 dark:bg-heroic-raisin p-6 rounded-lg shadow-md font-body-serif"
-    >
-      <!-- Form Container -->
-
-      <!-- Input Field -->
-      <div class="mb-4">
-        <label for="textInput" class="block text-sm font-medium text-gray-700 mb-1">Handle</label>
-        <div class="text-xs text-nuclear-800">How would you like to be remembered?</div>
-        <input
-          id="textInput"
-          type="text"
-          placeholder="Choose a handle, an alias"
-          class="w-full px-2 my-1 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-nuclear-500"
-        />
-        <div class="pl-2 text-xs text-gray-500">
-          This is a little hint to help you enter something sensible.
-        </div>
-      </div>
-
-      <!-- Dropdown Select -->
-      <div class="mb-4">
-        <label for="dropdown" class="block text-sm font-medium text-gray-700 mb-1"
-          >Select Option</label
-        >
-        <select
-          id="dropdown"
-          class="w-full px-2 my-1 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">-choose-</option>
-          <option value="">Option 1</option>
-          <option value="">Option 2</option>
-          <option value="">Option 3</option>
-        </select>
-      </div>
-
-      <!-- Row of Buttons -->
-      <div class="flex justify-between h-10 mt-8">
-        <button
-          type="button"
-          class="px-4 bg-nuclear-700 text-white rounded-md hover:bg-nuclear-500 focus:outline-none"
-        >
-          Button 1
-        </button>
-        <button
-          type="button"
-          class="px-4 bg-green-700 text-white rounded-md hover:bg-green-500 focus:outline-none"
-        >
-          Button 2
-        </button>
-        <button
-          type="button"
-          class="px-4 bg-red-700 text-white rounded-3xl hover:bg-red-500 focus:outline-dashed focus:outline-gray-600"
-        >
-          Button 3
-        </button>
-      </div>
-    </form>
   </div>
 </template>
 
