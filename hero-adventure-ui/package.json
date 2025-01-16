@@ -14,10 +14,10 @@
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
     "@nuxt/image": "^1.9.0",
-    "@nuxt/ui": "^2.20.0",
-    "nuxt": "^3.15.1",
+    "@nuxt/ui": "^2.21.0",
+    "nuxt": "^3.15.2",
     "vue": "latest",
-    "vue-router": "latest",
+    "vue-router": "^4.5.0",
     "yup": "^1.6.1"
   },
   "devDependencies": {
