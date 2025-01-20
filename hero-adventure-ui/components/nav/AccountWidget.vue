@@ -7,11 +7,13 @@
       @click="showLoginOptions = true"
     >
     </UDropdown>
-    <UButton v-else variant="ghost" label="Sign In" @click="openSignInPanel">
-      <template #trailing>
-        <UIcon name="i-ph-sign-in" />
-      </template>
-    </UButton>
+    <UButton
+      v-else
+      variant="ghost"
+      label="Sign In"
+      trailing-icon="i-ph-sign-in"
+      @click="openSignInPanel"
+    />
   </div>
 
   <UModal v-model="showSignInPanel">

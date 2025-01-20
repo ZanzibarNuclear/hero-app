@@ -30,7 +30,7 @@
   }
 
   .card {
-    @apply bg-heroic-raisin p-6 rounded-lg shadow-md text-heroic-cherenkov;
+    @apply bg-heroic-graphite p-6 rounded-lg shadow-md text-heroic-cherenkov;
   }
 }
 
