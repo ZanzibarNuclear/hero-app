@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="h-18 flex items-center justify-center">
     <div
       class="flex items-center justify-between bg-heroic-uranium dark:bg-heroic-graphite shadow-lg dark:shadow-cherenkov my-4"
     >

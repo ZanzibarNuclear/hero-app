@@ -1,5 +1,5 @@
 <template>
-  <footer class="my-4">
+  <footer class="h-16 flex items-center justify-center">
     <div class="text-center">
       <NuxtLink external to="https://nuclearambitions.com"
         >&copy; 2025 Nuclear Ambitions LLC</NuxtLink
